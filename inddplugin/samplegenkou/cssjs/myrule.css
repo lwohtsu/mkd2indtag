@@ -67,13 +67,15 @@ del{
       pre code {
         display: block; padding: 0.5em;
         color: #333;
-        background: #f8f8ff
+        background: #f8f8ff;
+        font-family: Menlo, monospace;
+
       }
       pre .comment,
       pre .template_comment,
       pre .diff .header,
       pre .javadoc {
-        color: #4b8; /*#998;*/
+        color: #998; /*#998;*/
         font-style: italic
       }
       pre .keyword,
@@ -135,8 +137,8 @@ del{
         color: #009926
       }
       pre .class {
-        color: #458;
-        font-weight: bold
+        color: #4AB;
+        font-weight: normal;/*bold*/
       }
       pre .symbol,
       pre .ruby .symbol .string,
